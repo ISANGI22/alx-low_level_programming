@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S $CFILE -fno-verbose-asm > main.s
