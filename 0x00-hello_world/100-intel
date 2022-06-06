@@ -1,4 +1,2 @@
 #!/bin/bash
-#gcc $CFILE -fno-verbose-asm > main.s
-#!/bin/bash
-gcc -S $CFILE -verbose-asm > main.s
+gcc -S -masm=intel $CFILE > main.s
