@@ -3,13 +3,12 @@
 #include <stdlib.h>
 
 /**
- * The main function - Entry point
+ * Main function - Entry point
  *
  * This is the main function
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
