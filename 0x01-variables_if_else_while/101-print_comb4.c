@@ -22,7 +22,6 @@ int main(void)
 				putchar((n) + '0');
 				putchar((m) + '0');
 				putchar((o) + '0');
-				
 				if (n == 7 && m == 8 && o == 9)
 					continue;
 
