@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <string.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -9,15 +10,16 @@
  */
 int main(void)
 {
-	
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	char *str = "_putchar";
+
+	long unsigned int i;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		_putchar(str[i]);
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
