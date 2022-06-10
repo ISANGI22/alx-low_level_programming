@@ -1,8 +1,16 @@
+/**
+ * 1-alphabet.c
+ * Modeste K
+ */
+
 #include "main.h"
 
 /**
- * Print _putchar with new line
- * Return: Always 0 (Success)
+ * print_alphabet() Print out alphabet follwo by new line
+ *
+ * La fonction aura en charge l'impression de l'aphabet suivi d'une nouvelle
+ * une fois invoquée
+ * Return
  */
 void print_alphabet(void)
 {
