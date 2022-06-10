@@ -10,15 +10,14 @@
  */
 int main(void)
 {
-	char *str = "_putchar";
-
-	long unsigned int i;
-
-	for (i = 0; i < strlen(str); i++)
-	{
-		_putchar(str[i]);
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
