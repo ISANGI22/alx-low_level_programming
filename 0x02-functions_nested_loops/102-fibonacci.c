@@ -9,8 +9,8 @@
 int main(void)
 {
 	int i;
-	unsigned long n1 = 1;
-	unsigned long n2 = 2;
+	unsigned long n1 = 0;
+	unsigned long n2 = 1;
 	unsigned long nn;
 
 	for (i = 0; i < 50; i++)
