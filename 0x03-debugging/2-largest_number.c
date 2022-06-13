@@ -12,6 +12,10 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
+	if ((n1 == n2 || n1 == n3 || n3 == n1))
+	{
+		largest = n1;
+	}
 	if (a > b && b > c)
 	{
 		largest = a;
