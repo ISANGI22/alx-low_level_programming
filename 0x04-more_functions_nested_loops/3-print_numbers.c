@@ -2,15 +2,16 @@
 
 /**
  * print_numbers - print number from 0 to 9
- *@a: integer used for loop
+ * @n: integer used for loop
  *
- * Return: the value of mul
+ * Return: nothing
  */
 void print_numbers(void)
 {
-	int number;
-	for (number = 0; number < 10; number++)
-		_putchar(number);
+	int n;
+
+	for (n = 0; n < 10; n++)
+		_putchar(n);
 
 	_putchar('\n');
 }
