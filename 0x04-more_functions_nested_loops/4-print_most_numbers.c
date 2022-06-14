@@ -11,13 +11,10 @@ void print_most_numbers(void)
 	int x;
 
 	x = 0;
-	while (x < 10)
+	for (x=0; x < 10; x++)
 	{
 		if (x != 2 && x != 4)
-		{
 			_putchar(x + '0');
-			x++;
-		}
 	}
 	_putchar('\n');
 }
