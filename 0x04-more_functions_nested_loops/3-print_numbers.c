@@ -3,13 +3,13 @@
 /**
  * print_numbers - print number from 0 to 9
  *@a: integer used for loop
-
+ *
  * Return: the value of mul
  */
 void print_numbers(void)
 {
-	int a;
-	for (a = 0; a < 10; a++)
-		_putchar(a);
+	int number = 0;
+	for (number = 0; number < 10; number++)
+		_putchar(number);
 	_putchar('\n');
 }
