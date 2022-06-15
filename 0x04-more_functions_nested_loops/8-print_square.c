@@ -2,8 +2,7 @@
 
 /**
  * print_square - prints a square
- * @x: parameter used in the function
- * @y: parameter used in the function
+ * @size: parameter used in the function
  * Return: nothing
  */
 void print_square(int size)
