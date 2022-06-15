@@ -2,15 +2,14 @@
 
 /**
  * main - Prints the FizzBuzz
- * 
  * Return: Always 0
  */
 int main(void)
 
 {
-	int x;
-	
-	for (i = 1, i <= 100; i++)
+	int i;
+
+	for (i = 1; i <= 100; i++)
 	{
 		if ((i % 3) == 0)
 			printf("Fizz\n");
