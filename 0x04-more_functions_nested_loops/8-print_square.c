@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_square - prints a squre
+ * print_square - prints a square
  * @x: parameter used in the function
  * @y: parameter used in the function
+ *
+ * Return: size
  */
 void print_square(int size)
 
@@ -22,5 +24,6 @@ void print_square(int size)
 			}
 			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
