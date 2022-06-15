@@ -2,8 +2,7 @@
 
 /**
  * print_line - draw a straight line in terminal
- *
- * Return: Always 0
+ * @n: paramater used in the function
  */
 void print_line(int n)
 
