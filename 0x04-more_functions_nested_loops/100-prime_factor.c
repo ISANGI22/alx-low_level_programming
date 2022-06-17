@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (x % y == 0)
 		{
-			x /=2;
+			x /= 2;
 			continue;
 		}
 		for (y = 3; y < x / 2; y += 2)
