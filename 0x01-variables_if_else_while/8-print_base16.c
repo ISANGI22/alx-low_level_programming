@@ -10,17 +10,12 @@
 int main(void)
 {
 	int n;
+	char m;
 
 	for (n = 0; n <= 9; n++)
-	{
 		putchar((n) + '0');
-		if (n == 9)
-			continue;
-
-		putchar(',');
-		putchar(' ');
-	}
-
+	for (m = 'a'; m <= 'f'; m++)
+		putchar(m);
 	putchar('\n');
 	return (0);
 }
