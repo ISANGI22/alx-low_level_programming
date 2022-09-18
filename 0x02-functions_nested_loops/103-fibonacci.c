@@ -12,14 +12,12 @@ int main(void)
 
 	while (nn < 4000000)
 	{
-		nn = a + b; 
-		
+		nn = a + b;
 		a = b;
 		b = nn;
 
 		if (nn % 2 == 0)
 			sum = nn + 1
-
 	}
 	printf("%i\n", sum);
 	return (0);
