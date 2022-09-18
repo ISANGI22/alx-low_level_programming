@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,16 +7,16 @@
  */
 int main(void)
 {
-	int a = 0, b = 1, nn = 0, sum = 0;
+	int a = 0, b = 1, nn = 0; 
+	int sum = 0;
 
 	while (nn < 4000000)
 	{
 		nn = a + b;
 		a = b;
 		b = nn;
-
 		if (nn % 2 == 0)
-			sum = nn + 1
+			sum += nn;
 	}
 	printf("%i\n", sum);
 	return (0);
