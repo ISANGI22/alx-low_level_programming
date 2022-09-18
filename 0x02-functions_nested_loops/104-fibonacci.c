@@ -26,8 +26,7 @@ int main(void)
 	ee = ee % 1000000000;
 	jj = jj / 1000000000;
 	ff = ff % 1000000000;
-
-	for (a = 92; a < 99; a++);
+	for (a = 92; a < 99; ++a)
 	{
 		printf(", %lu", jj + (ff / 1000000000));
 		printf("%lu", ff % 1000000000);
@@ -36,7 +35,6 @@ int main(void)
 		ff = kk + ee;
 		ee = kk - ee;
 	}
-	
 	printf("\n");
 
 	return (0);
