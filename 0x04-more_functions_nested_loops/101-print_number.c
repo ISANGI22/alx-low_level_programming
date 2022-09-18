@@ -8,12 +8,12 @@
 void print_number(int n)
 
 {
-	int x;
+	unsigned int x;
 
 	if (n < 0)
 	{
 		_putchar('-');
-		n = -n;
+		x = -n;
 	}
 	else
 	{
@@ -25,5 +25,5 @@ void print_number(int n)
 		print_number(x / 10);
 	}
 
-	_putchar((n % 10) + '0');
+	_putchar((x % 10) + '0');
 }
