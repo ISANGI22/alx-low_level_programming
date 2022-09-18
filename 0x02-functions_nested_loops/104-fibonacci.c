@@ -13,7 +13,7 @@ int main(void)
 	b = 1;
 	c = 2;
 
-	printf("%lu", a);
+	printf("%lu", b);
 
 	for (a = 1; a < 91; a++)
 	{
@@ -22,10 +22,11 @@ int main(void)
 		b = c - b;
 	}
 
-	dd = dd / 1000000000;
-	ee = ee % 1000000000;
-	jj = jj / 1000000000;
-	ff = ff % 1000000000;
+	dd = b / 1000000000;
+	ee = b % 1000000000;
+	jj = c / 1000000000;
+	ff = c % 1000000000;
+
 	for (a = 92; a < 99; ++a)
 	{
 		printf(", %lu", jj + (ff / 1000000000));
