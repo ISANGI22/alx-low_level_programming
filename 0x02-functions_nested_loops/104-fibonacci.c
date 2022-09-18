@@ -33,8 +33,8 @@ int main(void)
 		printf("%lu", ff % 1000000000);
 		jj = jj + dd;
 		dd = jj - dd;
-		ff = kk + ee;
-		ee = kk - ee;
+		ff = ff + ee;
+		ee = ff - ee;
 	}
 	printf("\n");
 
