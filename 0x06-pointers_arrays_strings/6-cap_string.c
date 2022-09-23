@@ -18,7 +18,7 @@ char *cap_string(char *str)
 		k = 0;
 		while (k < lon)
 		{
-			if ((j == 0 || str[j - 1] == eg[i]) && (str[j] >= 97 && str[j] <= 122))
+			if ((j == 0 || str[j - 1] == eg[j]) && (str[j] >= 97 && str[j] <= 122))
 				str[j] = str[j] - 32;
 			k++;
 		}
