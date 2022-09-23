@@ -9,16 +9,29 @@
  */
 char *cap_string(char *str)
 {
-	char eg[] = {32, 9, 10, ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-	int lon = 13;
 	int j = 0, k;
+	char eg[13];
+
+	eg[0] = ' ';
+	eg[1] = '\t';
+	eg[2] = '\n';
+	eg[3] = ',';
+	eg[4] = ';';
+	eg[5] = '.';
+	eg[6] = '!';
+	eg[7] = '?';
+	eg[8] = '"';
+	eg[8] = '(';
+	eg[10] = ')';
+	eg[11] = '{';
+	eg[12] = '}';
 
 	while (str[j])
 	{
 		k = 0;
-		while (k < lon)
+		while (k < 13)
 		{
-			if ((j == 0 || str[j - 1] == eg[j]) && (str[j] >= 97 && str[j] <= 122))
+			if ((j == 0 || str[j - 1] == eg[j]) && (str[j] >= 'a' && str[j] <= 'z'))
 				str[j] = str[j] - 32;
 			k++;
 		}
