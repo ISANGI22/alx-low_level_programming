@@ -10,15 +10,15 @@
 char *cap_string(char *str)
 {
 	char eg[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-	int i = 13;
+	int lon = 13;
 	int j = 0, k;
 
 	while (str[j])
 	{
 		k = 0;
-		while (k < i)
+		while (k < lon)
 		{
-			if ((j == 0 || str[j - 1] == eg[i]) && (str[j] >= 97 && str[j] <= 122)
+			if ((j == 0 || str[j - 1] == eg[i]) && (str[j] >= 97 && str[j] <= 122))
 				str[j] = str[j] - 32;
 			k++;
 		}
