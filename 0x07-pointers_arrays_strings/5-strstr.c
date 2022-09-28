@@ -15,25 +15,20 @@ char *_strstr(char *haystack, char *needle)
 
 	if (*needle == 0)
 	{
-		return haystack;
+		return (haystack);
 	}
 	while (*haystack)
 	{
 		for (i = 0; i < strlen(haystack); i++)
 		{
-			do
-			{
+			do {
 				if (needle[i + 1] == '\0')
-					{
-						return (haystack);
-					}
-					else
-					{
-						return NULL;
-					}
+					return (haystack);
+				else
+					return (NULL);
 			} while (haystack[i] == needle[i]);
 		}
 		haystack++;
 	}
 	return ('\0');
-}	
+}
