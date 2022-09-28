@@ -13,17 +13,27 @@ char *_strstr(char *haystack, char *needle)
 {
 	long unsigned int i;
 
-	if (*needle == '\0')
+	if (*needle == 0)
 	{
 		return haystack;
 	}
-	for (i = 0; i < strlen(haystack); i++)
+	while (*haystack)
 	{
-		if (*(haystack + 1) == *needle)
+		for (i = 0; i < strlen(haystack); i++)
 		{
-			const char *ptr = _strstr(haystack + i + 1, needle + 1);
-			return (ptr) ? ptr - 1 : NULL;
+			do
+			{
+				if (needle[i + 1] == '\0')
+					{
+						return (haystack);
+					}
+					else
+					{
+						return NULL;
+					}
+			} while (haystack[i] == needle[i]);
 		}
+		haystack++;
 	}
-	return NULL;
+	return ('\0');
 }	
