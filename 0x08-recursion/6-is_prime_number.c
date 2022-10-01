@@ -22,7 +22,7 @@ int check_divisible(int nomb, int div)
 
 /**
  * is_prime_number - Function that returns 1 if the input integer
- * 	is a prime number, otherwise return 0
+ * is a prime number, otherwise return 0
  *
  * @n: integer to be used in the function
  *
