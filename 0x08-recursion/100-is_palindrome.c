@@ -46,11 +46,11 @@ int ver_palindrome(char *s, int longu, int i)
  * is_palindrome - Function that returns 1 if a string
  * is a palidrome and 0 if not
  *
- * @s: character to be checked 
+ * @s: character to be checked
  *
  * Return: Always 0
  */
- int is_palindrome(char *s)
+int is_palindrome(char *s)
 {
 	int i = 0;
 	int longu = get_strlen(s);
