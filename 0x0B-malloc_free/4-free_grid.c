@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * free_grid - Function that frees a 2 dimensional grip previously
