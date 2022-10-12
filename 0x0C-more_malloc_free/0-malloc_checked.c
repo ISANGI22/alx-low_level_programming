@@ -2,10 +2,9 @@
 
 /**
  * malloc_checked - Functions that allocates memory using malloc
- *
  * @b: integer to be used in the function
  *
- * Returns: pointer to the allocated memory
+ * Return: pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
@@ -14,7 +13,7 @@ void *malloc_checked(unsigned int b)
 	p = malloc(b);
 	if (p == NULL)
 	{
-		exit (98);
+		exit(98);
 	}
 	return (p);
 }
