@@ -1,14 +1,13 @@
-#ifndef DOG
-#define DOG
-
+#ifndef MAIN_H
+#define MAIN_H
+#include "main.h"
 #include <stdlib.h>
 
 /**
- * struct dog - Structure that define a dog
+ * struct dog - Structure dans define a dog
  * @name: name given to a specific dog
  * @age: age of a specific dog
  * @owner: a person responsible of a dog
- * @new_dog: the new dog to be used in the function
  *
  * Description: THis struct will be used to define a dog with some
  * basic information
@@ -21,12 +20,12 @@ struct dog
 };
 
 	/**
-	 * struct new_dog: the new dog to be used in the function
-	 * @chien: pointer to use in the function
+	 * new_dog: the new dog to be used in the function
 	 * 
-	 * Description: The new objet will be used as a child to the structure
-	 * for creating a new user from the parent structure
+	 * Descritpion: The section is use create a new struct nex dog and
+	 * this will be used in the function
 	 */
+
 struct dog *new_dog(char *name, float age, char *owner)
 {
 	struct dog *chien;
