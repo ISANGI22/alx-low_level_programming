@@ -4,7 +4,7 @@
 /**
  * init_dog - Function that initializes a variable of type struct dog
  *
- * @d: name of the pointer used in the function
+ * @d: name of the pointer used in the function as new dog
  * @name: the parameter name
  * @age: the paramater age
  * @owner: the parameter owner
