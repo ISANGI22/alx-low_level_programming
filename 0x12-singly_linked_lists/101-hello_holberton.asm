@@ -1,16 +1,11 @@
 section .text
+	extern printf
 	global main
 
 main:
-	mov edx, len
-	mov ecx, msg
-	mov ebx, 1
-	mov eax, 4 	;system call (sys_write)
-	int 0x80 	;to call kernel
-
-	mov eax, 1	;system call (sys_exit)
-	int 0x080
+	mov edi, msg
+	mov eax, 0
+	call printf
 
 section .data
-	msg db "Hello, Holberton",0xa ;also can be written 10
-	len equ $ -msg
+	msg db "Hello, Holberton", 0xa, 0
