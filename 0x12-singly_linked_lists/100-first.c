@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print_first(void) __attrib__ ((constructor));
+void print_first(void) __attribute__ ((constructor));
 
 /**
  * print_first - Function that prints a string
