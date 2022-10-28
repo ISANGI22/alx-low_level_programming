@@ -4,8 +4,6 @@
  * free_listint2 - Function that frees a listint_t
  *
  * @head: point of the function to be freed
- *
- * @Return: Always 0
  */
 void free_listint2(listint_t **head)
 {
