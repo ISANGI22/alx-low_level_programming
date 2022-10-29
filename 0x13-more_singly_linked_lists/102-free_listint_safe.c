@@ -47,7 +47,7 @@ size_t looped_listint_count(listint_t *head)
 }
 
 /**
- * free_litint_safe - Function that frees a listint_t
+ * free_listint_safe - Function that frees a listint_t
  *
  * @h: parameter to be used in the function
  *
